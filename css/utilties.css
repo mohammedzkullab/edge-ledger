@@ -5,11 +5,25 @@ a{
 p{
     margin: 10px 0;
 }
+img{
+    width: 100%;
+}
 
 .h1{
     font-size: 40px;
     font-weight: 300;
     line-height: 1.2;
+    
+}
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    opacity: 0.8;
 }
 .btn-dark, .bg-dark{
     background: #333;
@@ -28,29 +42,26 @@ p{
     background: #0284d0;
     color: #fff;
 }
-
-
-.btn{
-    cursor: pointer;
-    display: inline-block;
-    padding: 10px 30px;
-    color: #fff;
-    background-color: #28a745;
-    border: none;
-    border-radius: 5px;
-}
-.btn:hover{
-    opacity: 0.8;
-}
 .btn-outline {
     background: transparent;
     border: 1px solid #fff;
+    color: #fff;
 }
+
+
 .flex-items{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
+    text-align: center;
+}
+.flex-coloms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
 }
 
 .h2{
