@@ -13,9 +13,6 @@ nav ul li a{
 .flex-items {
     flex-direction: column;
 }
-.second-cont {
-    padding-left: 10%;
-}
 .flex-items .coloumn ,.fifth-cont .coloumn , .seventh-cont .coloumn{
     flex: 100%;
     width: 100%;
