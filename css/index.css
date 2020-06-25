@@ -161,6 +161,7 @@ nav ul a:hover{
  .third-cont .row .coloumn .colum-cont p{
      margin: 20px 0;
      font-size: 16px;
+     text-align: left;
  }
  /****** 4th section***************/
 
@@ -211,6 +212,9 @@ nav ul a:hover{
 .fifth-cont  .blog-content  h4 {
     margin-bottom: 10px;
 }
+.fifth-cont  .blog-content  p{
+    margin: 40px 0;
+}
 /*****6th section*************/
 .sixth-cont .team-cont{
     display: flex;
@@ -226,6 +230,7 @@ nav ul a:hover{
 
 .sixth-cont .team-images > div{
     padding: 20px;
+    overflow: hidden;
 } 
 .sixth-cont .team-images div img {
     border-radius: 10px;
