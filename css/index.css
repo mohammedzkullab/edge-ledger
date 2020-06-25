@@ -229,7 +229,9 @@ nav ul a:hover{
 } 
 .sixth-cont .team-images div img {
     border-radius: 10px;
-
+}
+.sixth-cont .team-images div > img:hover{
+    transform: scale(1.03, 1.03);
 }
 /*****7th section****************/
 .seventh-cont .row .coloumn img {
